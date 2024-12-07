@@ -1,0 +1,10 @@
+Error: connect ECONNREFUSED 127.0.0.1:3306
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1549:16)
+    --------------------
+    at Protocol._enqueue (/media/mian/bad52411-55c8-4bee-a68d-f34fa6f21e1a/uber like/taxi_driver_node/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/media/mian/bad52411-55c8-4bee-a68d-f34fa6f21e1a/uber like/taxi_driver_node/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at Connection.connect (/media/mian/bad52411-55c8-4bee-a68d-f34fa6f21e1a/uber like/taxi_driver_node/node_modules/mysql/lib/Connection.js:116:18)
+    at reconnect (/media/mian/bad52411-55c8-4bee-a68d-f34fa6f21e1a/uber like/taxi_driver_node/helpers/db_helpers.js:18:16)
+    at Timeout._onTimeout (/media/mian/bad52411-55c8-4bee-a68d-f34fa6f21e1a/uber like/taxi_driver_node/helpers/db_helpers.js:25:17)
+    at listOnTimeout (node:internal/timers:569:17)
+    at process.processTimers (node:internal/timers:512:7)

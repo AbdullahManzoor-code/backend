@@ -1,0 +1,11 @@
+UnsupportedMediaTypeError: missing content-type header
+    at Form.parse (/media/mian/bad52411-55c8-4bee-a68d-f34fa6f21e1a/riderap/taxi_driver_node/node_modules/multiparty/index.js:164:21)
+    at /media/mian/bad52411-55c8-4bee-a68d-f34fa6f21e1a/riderap/taxi_driver_node/controllers/login_controller.js:332:14
+    at Layer.handle [as handle_request] (/media/mian/bad52411-55c8-4bee-a68d-f34fa6f21e1a/riderap/taxi_driver_node/node_modules/express/lib/router/layer.js:95:5)
+    at next (/media/mian/bad52411-55c8-4bee-a68d-f34fa6f21e1a/riderap/taxi_driver_node/node_modules/express/lib/router/route.js:149:13)
+    at Route.dispatch (/media/mian/bad52411-55c8-4bee-a68d-f34fa6f21e1a/riderap/taxi_driver_node/node_modules/express/lib/router/route.js:119:3)
+    at Layer.handle [as handle_request] (/media/mian/bad52411-55c8-4bee-a68d-f34fa6f21e1a/riderap/taxi_driver_node/node_modules/express/lib/router/layer.js:95:5)
+    at /media/mian/bad52411-55c8-4bee-a68d-f34fa6f21e1a/riderap/taxi_driver_node/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/media/mian/bad52411-55c8-4bee-a68d-f34fa6f21e1a/riderap/taxi_driver_node/node_modules/express/lib/router/index.js:346:12)
+    at next (/media/mian/bad52411-55c8-4bee-a68d-f34fa6f21e1a/riderap/taxi_driver_node/node_modules/express/lib/router/index.js:280:10)
+    at cors (/media/mian/bad52411-55c8-4bee-a68d-f34fa6f21e1a/riderap/taxi_driver_node/node_modules/cors/lib/index.js:188:7)
