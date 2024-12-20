@@ -11,7 +11,7 @@
     "cors": "^2.8.5",
     "debug": "~2.6.9",
     "ejs": "^3.1.9",
-    "express": "^4.18.2",
+    "express": "^4.21.2",
     "http-errors": "~1.6.3",
     "moment-timezone": "^0.5.46",
     "morgan": "~1.9.1",
@@ -19,5 +19,18 @@
     "mysql": "^2.18.1",
     "socket.io": "^4.8.1",
     "uuid": "^9.0.1"
-  }
+  },
+  "description": "",
+  "main": "app.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AbdullahManzoor-code/backend.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AbdullahManzoor-code/backend/issues"
+  },
+  "homepage": "https://github.com/AbdullahManzoor-code/backend#readme"
 }
